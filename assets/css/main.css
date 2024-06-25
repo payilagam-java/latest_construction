@@ -14,11 +14,37 @@
 
 
 
+.portfolio-content #k1,#k2,#k3,#h1,#h2,#h3,#b1,#b2,#b3,#i1,#i2,#i3{
+  width : 500px;
+  height: 250px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures the image covers the entire container */
+}
+
+@media (max-width : 768px) {
+  .portfolio-content #k1,#k2,#k3,#h1,#h2,#h3,#b1,#b2,#b3,#i1,#i2,#i3{ 
+    width : 100%;
+    margin-top: 0px;
+    height: 350px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the entire container */
+  }
+  
+}
+ /* .portfolio-content #hall2{
+  width: 500px;
+  height :350px;
+  margin-bottom: 100px;
+ }
+ .portfolio-content #bed1,#bed2,#bed3{
+  width: 500px;
+  height :250px;
+ } */
+
 
 #wishes{
   position: relative;
   cursor: pointer;
 }
+
 #wishes::before{
   content: '';
   position: absolute;
@@ -1506,6 +1532,7 @@ section,
   transition: 0.3s;
   line-height: 1.2;
 }
+
 
 .projects .portfolio-content .portfolio-info .preview-link:hover,
 .projects .portfolio-content .portfolio-info .details-link:hover {
