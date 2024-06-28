@@ -12,11 +12,7 @@
 --------------------------------------------------------------*/
 /* Fonts */
 
-.header #logo img{
-  width : 50px;
-  height: 42px;
-  margin-right: 18px;
-}
+
 
 
 .portfolio-content #k1,#k2,#k3,#h1,#h2,#h3,#b1,#b2,#b3,#i1,#i2,#i3{
@@ -34,15 +30,7 @@
   }
   
 }
- /* .portfolio-content #hall2{
-  width: 500px;
-  height :350px;
-  margin-bottom: 100px;
- }
- .portfolio-content #bed1,#bed2,#bed3{
-  width: 500px;
-  height :250px;
- } */
+ 
 
 
 #wishes{
@@ -227,7 +215,12 @@ h6 {
   z-index: 997;
 }
 
-
+.header .logo img {
+  height: 62px;
+  margin-right: 8px;
+  border-radius: 5px;
+  width: 80px;
+}
 
 .header .logo h1 {
   font-size: 24px;
@@ -3067,9 +3060,4 @@ section,
   color : white
 
 }
-#logo img{
-width : 80px;
-height : 50px;
-border-radius : 30px;
-  
-}
+
