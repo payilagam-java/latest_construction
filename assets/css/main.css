@@ -12,9 +12,8 @@
 --------------------------------------------------------------*/
 /* Fonts */
 
-.header .logo img {
-  border-radius : 20px;
-  max-height: 72px;
+.header .logo{
+  max-height: 42px;
   margin-right: 18px;
 }
 
