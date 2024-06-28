@@ -13,8 +13,8 @@
 /* Fonts */
 
 .header #logo img {
- 
-  max-height: 52px;
+  border-radius : 20px;
+  max-height: 62px;
   margin-right: 12px;
 }
 
